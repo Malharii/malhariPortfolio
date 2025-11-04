@@ -26,7 +26,7 @@ const allProjects = [
     description:
       "A dynamic digital marketplace enabling users to seamlessly buy and sell high-quality UI components.",
     fullDescription:
-      "Built a full-featured marketplace platform with Next.js for enhanced performance and SEO. Features include advanced search and filtering, secure payment gateway integration, user authentication, and product management system. Implemented with TypeScript for type safety and Tailwind CSS for modern styling.",
+      "Built a full-featured marketplace platform with Next.js for enhanced performance and SEO. Features include advanced search and filtering, secure payment gateway integration, user authentication,component uploads,clean UI, and product management system. Implemented with TypeScript for type safety and Tailwind CSS for modern styling.",
     image: "/digital-marketplace.jpg",
     tags: ["ReactJs", "NextJs", "MongoDB", "TypeScript", "TailwindCSS", "Shadcn UI"],
     viewLink: "#",
