@@ -9,6 +9,27 @@ import Link from "next/link";
 
 const allProjects = [
   {
+    id: 3,
+    title:
+      " AI Code Playground — Real-Time Dockerized Code Execution Platform (In Progress)",
+    description:
+      "A real-time Dockerized code execution platform currently under development. It executes JavaScript safely inside isolated containers, supports live output streaming via Socket.io, and uses modern tools like Chokidar, TanStack Query, and Zustand for state management and file watching.",
+    fullDescription:
+      "AI Code Playground is a real-time, Dockerized online coding environment designed to securely execute JavaScript code inside isolated containers. The platform provides instant feedback through live output streaming powered by Socket.io, creating a seamless and interactive coding experience. It incorporates Chokidar for file system watching, automatically re-running user code when updates occur. TanStack Query is used to manage server-state efficiently, enabling optimized data fetching, caching, and synchronization. Zustand handles global UI and execution state, ensuring smooth performance with minimal re-renders. The backend includes APIs responsible for container lifecycle management, execution requests, and streaming logs, while Docker enforces strict isolation and resource limits to maintain a safe and controlled sandboxed environment.",
+    image: "/code-editor-interface.jpg",
+    tags: [
+      "ReactJs",
+      "Monaco Editor",
+      "javascript",
+      "Docker",
+      "Node.js",
+      "Zustand",
+      "Express",
+    ],
+    viewLink: "#",
+    githubLink: "https://github.com/Malharii/ai-code-playground",
+  },
+  {
     id: 1,
     title: "MalharEats",
     description:
@@ -31,18 +52,6 @@ const allProjects = [
     tags: ["ReactJs", "NextJs", "MongoDB", "TypeScript", "TailwindCSS", "Shadcn UI"],
     viewLink: "#",
     githubLink: "https://github.com/Malharii/digitalmarketplace",
-  },
-  {
-    id: 3,
-    title: "Virtual Code Editor",
-    description:
-      "Browser-based code editor with real-time syntax highlighting and code execution capabilities.",
-    fullDescription:
-      "A powerful web-based code editor that allows users to write, edit, and execute code directly in the browser. Features include syntax highlighting for multiple languages, real-time code execution, file management, and theme customization. Built with React and Monaco Editor for a professional IDE-like experience.",
-    image: "/code-editor-interface.jpg",
-    tags: ["ReactJs", "Monaco Editor", "TypeScript", "Node.js", "Express"],
-    viewLink: "#",
-    githubLink: "https://github.com/Malharii/virtual-code-editor",
   },
 ];
 

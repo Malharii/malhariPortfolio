@@ -9,13 +9,22 @@ import Link from "next/link";
 const projects = [
   {
     id: 1,
-    title: "Virtual Code Editor",
+    title:
+      "AI Code Playground — Real-Time Dockerized Code Execution Platform (In Progress)",
     description:
-      "Browser-based code editor with real-time syntax highlighting and execution.",
+      "A real-time Dockerized code execution platform currently under development. It executes JavaScript safely inside isolated containers, supports live output streaming via Socket.io, and uses modern tools like Chokidar, TanStack Query, and Zustand for state management and file watching.",
     image: "/code-editor-interface.jpg",
-    tags: ["ReactJs", "Monaco Editor", "javascript", "Node.js", "Express.js"],
+    tags: [
+      "ReactJs",
+      "Monaco Editor",
+      "javascript",
+      "Node.js",
+      "Express.js",
+      "Zustand",
+      "Docker",
+    ],
     viewLink: "#",
-    githubLink: "https://github.com/Malharii/virtual-code-editor",
+    githubLink: "https://github.com/Malharii/ai-code-playground",
   },
   {
     id: 2,
